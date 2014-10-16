@@ -701,6 +701,11 @@ a.pool_link {
     margin-top:5px;
     color:#666666;
 }
+#pagination_container   {
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #vendor_contract_history_container  {
     width:100%;
     min-height:100px;

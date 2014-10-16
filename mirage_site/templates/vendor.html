@@ -123,8 +123,19 @@
                 </table>
             </div>
         
-        <div id="no_matching_contracts">There are no matching contracts to display</div>
-
+            <div id="no_matching_contracts">There are no matching contracts to display</div>
+            
+            <div id="pagination_container">    
+                <script>
+                    jQuery(function($) {
+                    $(selector).pagination({
+                        items: 100,
+                        itemsOnPage: 10,
+                        cssStyle: 'light-theme'
+                        });
+                    });
+                </script>
+            </div><!--end pagination_container<!-->
         </div><!--end vendor_contract_history_container<!-->
 
 
